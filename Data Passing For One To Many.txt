@@ -1,0 +1,38 @@
+{
+   
+   "name":"bike",
+   "register_date":"01-sep-2023",
+   "update_date":"01-sep-2023",
+   
+   "product":[
+     {
+       "pid": 201,
+       "name": "honda",
+       "price": 100000,
+       "quantity": 1,
+       "register_date": "01-sep-2023",
+       "update_date": "01-sep-2023"
+       
+     }, 
+
+     {
+       "pid": 202,
+       "name": "pulsar",
+       "price": 200000,
+       "quantity": 1,
+       "register_date": "02-sep-2023",
+       "update_date": "02-sep-2023"
+       
+     } 
+
+   ]
+  
+}
+
+
+
+HANDLING PAGINATION
+http://localhost:8080/categories/?pageIndex=0&pageSize=5&sortBy=cid
+http://localhost:8080/products/?pageIndex=0&pageSize=5&sortBy=price
+
+
